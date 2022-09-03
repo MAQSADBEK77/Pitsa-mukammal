@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background: black;
+    background-size: 100%;
+    max-width: 2000px; 
+}
+.contaniar {
+    flex-wrap: wrap;
+    max-width: 1620px;
+    margin: 70px auto 0;
+}
+.block1 {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+   background-color: blueviolet;
+    color: #fff;
+    border-radius: 40px;
+    cursor: grab;
+
+} 
+.block2 {
+    background-color: black;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+flex-wrap: wrap;
+margin-bottom: 50px;
+
+}
+.block2 a:hover {
+    color: blueviolet;
+    background-color: aqua;
+    border-radius: 10px;
+    color: black;
+}
+.block2 a:nth-child(1) {
+    color: black;
+    background-color: aqua;
+    border-radius: 10px;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.block2 a {
+    font-size: 25px;
+    color: white;
+    background-color: violet;
+    padding: 21px;
+    border-radius: 100px;
+    width: 248px;
+    text-align: center;
+}
+
+.block1 img {
+    max-width: 70px;
+    padding: 0px 40px 17px 40px;
+}
+.block1 img:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+.block2 a:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+
+
+.block3 {
+    margin-top: 100px;
+}
+
+.block3 h4 {
+    color: #fff;
+    font-size: 30px;
+    line-height: 50px;
+    text-align: center;
+}
+.block3 h4:hover {
+    transform: scale(1.3);
+    transition: 0.8s;
+    cursor: grab;
+    color: aquamarine;
+}
+.block3 span {
+    color: red;
+}
+.block3 p {
+    color: blue;
+}
+iframe {
+    position: absolute;
+    right: 200px;
+    bottom: 300px;
+    width: 300px;
+}
